@@ -3,7 +3,19 @@ table{
 	width:100vw;
 	border:1px solid black;
 	border-radius:8px;
+	border-collapse:collapse;
+	overflow:hidden;
+}
+#head
+{
+	background-color:rgb(33,90,142);
+	color:white;
+    height:30px;
 }
 #head>th{
 	text-align:left;
+}
+#data-2,#data-4
+{
+	background-color:rgb(221,221,221);
 }
